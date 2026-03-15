@@ -1,0 +1,20 @@
+.card {
+  background: var(--surface);
+  border-radius: 1.1rem;
+  box-shadow: 0 12px 30px rgba(15, 31, 46, 0.08);
+  overflow: hidden;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(15, 31, 46, 0.08);
+}
+
+.card-header {
+  padding: 1rem 1.5rem;
+  background: linear-gradient(135deg, rgba(26, 127, 110, 0.08), rgba(15, 76, 92, 0.08));
+  border-bottom: 1px solid rgba(15, 31, 46, 0.08);
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.card-body {
+  padding: 1.5rem;
+}

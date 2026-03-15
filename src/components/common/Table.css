@@ -1,0 +1,81 @@
+.table-container {
+  overflow-x: auto;
+  background: var(--surface);
+  border-radius: 1.1rem;
+  box-shadow: 0 12px 30px rgba(15, 31, 46, 0.08);
+  border: 1px solid rgba(15, 31, 46, 0.08);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.85rem 1.1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(15, 31, 46, 0.08);
+}
+
+.table th {
+  background: var(--surface-alt);
+  font-weight: 600;
+  color: var(--ink);
+  position: sticky;
+  top: 0;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(26, 127, 110, 0.06);
+}
+.table-row-clickable {
+  cursor: pointer;
+}
+
+.table-empty {
+  text-align: center;
+  padding: 2rem;
+  color: var(--muted);
+}
+
+.table-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.action-btn {
+  padding: 0.25rem 0.5rem;
+  border: none;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.action-primary {
+  background-color: #1a7f6e;
+  color: #fff;
+}
+
+.action-primary:hover {
+  filter: brightness(0.95);
+}
+
+.action-danger {
+  background-color: #b23b3b;
+  color: #fff;
+}
+
+.action-danger:hover {
+  filter: brightness(0.95);
+}
+
+.action-secondary {
+  background-color: #223543;
+  color: #fff;
+}
+
+.action-secondary:hover {
+  filter: brightness(1.05);
+}
